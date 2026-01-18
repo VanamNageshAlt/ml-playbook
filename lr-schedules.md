@@ -20,3 +20,10 @@ last few steps end up doing nothing.
 
 Resuming training without restoring the scheduler state. The LR resets to
 initial peak, often much higher than where it should be.
+
+## Common patterns by model class
+
+- LLM pretraining: warmup + cosine
+- LLM fine-tune: warmup + linear or constant
+- Vision from scratch: warmup + cosine
+- RL: usually constant
