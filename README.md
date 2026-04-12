@@ -12,3 +12,7 @@ Each file is one topic, kept short on purpose.
 - `rl-implementation-tips.md` — PPO/DQN gotchas
 - `eval-honesty.md` — common ways evals lie to you
 - `gpu-debugging.md` — OOM, slow, NaN
+
+## Quick links
+
+If you're starting out, read in this order: lr-schedules → mixed-precision → eval-honesty → gpu-debugging.
